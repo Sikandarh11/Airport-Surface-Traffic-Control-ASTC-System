@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ASTC.AirplaneClass">
+  <grid id="f4dc0" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1722" height="718"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="3fce7" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="ef76c" binding="JPAnelAeroplane" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children/>
+          </grid>
+        </children>
+      </grid>
+      <grid id="27dc6" binding="Panel" layout-manager="GridLayoutManager" row-count="23" column-count="43" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none" title=""/>
+        <children>
+          <component id="68630" class="javax.swing.JLabel" binding="SIA">
+            <constraints>
+              <grid row="0" column="7" row-span="1" col-span="24" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Kristen ITC" size="36" style="1"/>
+              <text value="International"/>
+            </properties>
+          </component>
+          <component id="28d07" class="javax.swing.JLabel" binding="sourcelbl">
+            <constraints>
+              <grid row="10" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Source"/>
+            </properties>
+          </component>
+          <component id="5ddb2" class="javax.swing.JLabel" binding="SelectPassengerlbl">
+            <constraints>
+              <grid row="12" column="1" row-span="4" col-span="6" vsize-policy="4" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Select Passengers"/>
+            </properties>
+          </component>
+          <component id="4a677" class="javax.swing.JComboBox" binding="comboBoxPassengers">
+            <constraints>
+              <grid row="12" column="7" row-span="4" col-span="14" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Select"/>
+                <item value="500"/>
+                <item value="1000"/>
+                <item value="1500"/>
+                <item value="2000"/>
+                <item value="2500"/>
+                <item value="3000"/>
+                <item value="3500"/>
+                <item value="4000"/>
+                <item value="5000"/>
+              </model>
+            </properties>
+          </component>
+          <component id="1f4d3" class="javax.swing.JComboBox" binding="comboBoxTime">
+            <constraints>
+              <grid row="11" column="7" row-span="1" col-span="14" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Select Time"/>
+                <item value="00:51-06:30"/>
+                <item value="06:30-07:00"/>
+                <item value="07:00-07:30"/>
+                <item value="07:30-08:00"/>
+                <item value="08:00-08:30"/>
+                <item value="08:30-09:00"/>
+                <item value="09:00-09:30"/>
+                <item value="09:30-10:00"/>
+                <item value="10:00-10:30"/>
+                <item value="10:30-11:00"/>
+                <item value="11:00-11:30"/>
+                <item value="11:30-12:00"/>
+                <item value="12:00-12:30"/>
+                <item value="12:30-13:00"/>
+                <item value="13:00-13:30"/>
+                <item value="13:30-14:00"/>
+                <item value="14:00-14:30"/>
+                <item value="14:30-15:00"/>
+                <item value="15:00-15:30"/>
+                <item value="17:54-18:00"/>
+              </model>
+            </properties>
+          </component>
+          <component id="dcb25" class="javax.swing.JComboBox" binding="comboBoxSource">
+            <constraints>
+              <grid row="10" column="7" row-span="1" col-span="14" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Select Source"/>
+                <item value="Afghanistan"/>
+                <item value="Bahrain"/>
+                <item value="Bangladesh"/>
+                <item value="Bhutan"/>
+                <item value="Brunei"/>
+                <item value="Cambodia"/>
+                <item value="China"/>
+                <item value="India"/>
+                <item value="Indonesia"/>
+                <item value="Iran"/>
+                <item value="Iraq"/>
+                <item value="Israel"/>
+                <item value="Japan"/>
+                <item value="Jordan"/>
+                <item value="Kazakhstan"/>
+                <item value="Kuwait"/>
+                <item value="Kyrgyzstan"/>
+                <item value="Laos"/>
+                <item value="Lebanon"/>
+                <item value="Malaysia"/>
+              </model>
+            </properties>
+          </component>
+          <component id="e9b3" class="javax.swing.JLabel" binding="timelbl">
+            <constraints>
+              <grid row="11" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Time"/>
+            </properties>
+          </component>
+          <component id="405" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="42" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalTextPosition value="0"/>
+              <icon value="ASTC/planeresize (1).png"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="a1b39" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="42" row-span="5" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalTextPosition value="0"/>
+              <icon value="ASTC/planeresize (1).png"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="7834a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="9" column="42" row-span="2" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalTextPosition value="0"/>
+              <icon value="ASTC/planeresize (1).png"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="5b204" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="11" column="42" row-span="2" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalTextPosition value="0"/>
+              <icon value="ASTC/planeresize (1).png"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="5a2d0" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="13" column="42" row-span="2" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalTextPosition value="0"/>
+              <icon value="ASTC/planeresize (1).png"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="89eb6" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="17" column="42" row-span="2" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalTextPosition value="0"/>
+              <icon value="ASTC/planeresize (1).png"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="13f73" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="19" column="42" row-span="3" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalTextPosition value="0"/>
+              <icon value="ASTC/planeresize (1).png"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="1be1a" class="javax.swing.JLabel" binding="destinationlbl">
+            <constraints>
+              <grid row="10" column="21" row-span="1" col-span="10" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Destination"/>
+            </properties>
+          </component>
+          <component id="110ad" class="javax.swing.JLabel" binding="IDlbl">
+            <constraints>
+              <grid row="11" column="21" row-span="1" col-span="10" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Create ID"/>
+            </properties>
+          </component>
+          <component id="a2bd2" class="javax.swing.JTextField" binding="txtID">
+            <constraints>
+              <grid row="11" column="31" row-span="1" col-span="11" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="72fd2" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="9" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="ASTC/holiday (1).png"/>
+              <text value="Enjoy Holidays          "/>
+            </properties>
+          </component>
+          <component id="22dfa" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="10" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="ASTC/svg (1).png"/>
+              <text value="Smooth Runway          "/>
+            </properties>
+          </component>
+          <component id="b3ed8" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="18" column="0" row-span="5" col-span="1" vsize-policy="3" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="ASTC/hour-glass (1).png"/>
+              <text value="Enjoy Time          "/>
+            </properties>
+          </component>
+          <component id="f981" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="ASTC/airport (2) (1).png"/>
+              <text value="Airport"/>
+            </properties>
+          </component>
+          <component id="b08d7" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="6" vsize-policy="7" hsize-policy="7" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Kristen ITC" size="36" style="1"/>
+              <text value="NUST EME"/>
+            </properties>
+          </component>
+          <component id="34360" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="31" row-span="1" col-span="11" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Kristen ITC" size="36" style="1"/>
+              <text value="Airlines"/>
+            </properties>
+          </component>
+          <component id="91d5e" class="javax.swing.JButton" binding="saveButton" default-binding="true">
+            <constraints>
+              <grid row="20" column="1" row-span="1" col-span="6" vsize-policy="4" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Save"/>
+            </properties>
+          </component>
+          <component id="f68f7" class="javax.swing.JButton" binding="mainFormButton" default-binding="true">
+            <constraints>
+              <grid row="20" column="7" row-span="1" col-span="14" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Main Form"/>
+            </properties>
+          </component>
+          <component id="b6ac2" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="21" column="20" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="92c96" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="22" column="16" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="c9932" class="javax.swing.JLabel" binding="priorityLbl">
+            <constraints>
+              <grid row="12" column="21" row-span="4" col-span="10" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Set Priority"/>
+            </properties>
+          </component>
+          <component id="5ca69" class="javax.swing.JComboBox" binding="comboBoxPriority">
+            <constraints>
+              <grid row="12" column="31" row-span="4" col-span="11" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Select Priority"/>
+                <item value="Normal"/>
+                <item value="Imediate"/>
+              </model>
+            </properties>
+          </component>
+          <component id="7074c" class="javax.swing.JComboBox" binding="comboBoxSelectClass">
+            <constraints>
+              <grid row="16" column="31" row-span="4" col-span="11" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Select Class"/>
+                <item value="Economy"/>
+                <item value="Bussines"/>
+                <item value="VIP"/>
+              </model>
+            </properties>
+          </component>
+          <component id="b1397" class="javax.swing.JLabel" binding="lblClock">
+            <constraints>
+              <grid row="1" column="31" row-span="5" col-span="11" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="28329" class="javax.swing.JLabel" binding="AeroplaneName">
+            <constraints>
+              <grid row="1" column="1" row-span="9" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Aeroplane Name"/>
+            </properties>
+          </component>
+          <component id="27a82" class="javax.swing.JLabel" binding="datelbl2">
+            <constraints>
+              <grid row="6" column="31" row-span="4" col-span="11" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="266b" class="javax.swing.JLabel" binding="datelbl1">
+            <constraints>
+              <grid row="6" column="21" row-span="4" col-span="10" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Date"/>
+            </properties>
+          </component>
+          <component id="f1080" class="javax.swing.JLabel" binding="GlobalTimelbl">
+            <constraints>
+              <grid row="1" column="21" row-span="5" col-span="10" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Global Time"/>
+            </properties>
+          </component>
+          <component id="fd4d5" class="javax.swing.JTextField" binding="txtAeroplaneName">
+            <constraints>
+              <grid row="1" column="7" row-span="9" col-span="14" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="1d4ec" class="javax.swing.JComboBox" binding="comboBoxDestination">
+            <constraints>
+              <grid row="10" column="31" row-span="1" col-span="11" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Select Destination"/>
+                <item value="Afghanistan"/>
+                <item value="Bahrain"/>
+                <item value="Bangladesh"/>
+                <item value="Bhutan"/>
+                <item value="Brunei"/>
+                <item value="Cambodia"/>
+                <item value="China"/>
+                <item value="India"/>
+                <item value="Indonesia"/>
+                <item value="Iran"/>
+                <item value="Iraq"/>
+                <item value="Israel"/>
+                <item value="Japan"/>
+                <item value="Jordan"/>
+                <item value="Kazakhstan"/>
+                <item value="Kuwait"/>
+                <item value="Kyrgyzstan"/>
+                <item value="Laos"/>
+                <item value="Lebanon"/>
+                <item value="Malaysia"/>
+              </model>
+            </properties>
+          </component>
+          <component id="cc2d6" class="javax.swing.JLabel" binding="DepartureDatelbl">
+            <constraints>
+              <grid row="16" column="1" row-span="4" col-span="6" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Departure Date  :  yyyy-mm-dd"/>
+            </properties>
+          </component>
+          <component id="36485" class="javax.swing.JLabel" binding="lblClassType">
+            <constraints>
+              <grid row="16" column="21" row-span="4" col-span="10" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Select Class"/>
+            </properties>
+          </component>
+          <component id="328f" class="javax.swing.JFormattedTextField" binding="txtdepartureDate">
+            <constraints>
+              <grid row="16" column="7" row-span="4" col-span="14" vsize-policy="5" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="dd534" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="12" column="0" row-span="6" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="ASTC/wall-clock (1).png"/>
+              <text value="24/7 Avalability          "/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

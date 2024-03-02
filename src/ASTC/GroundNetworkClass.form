@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ASTC.GroundNetworkClass">
+  <grid id="27dc6" binding="GroundNetworkClassPanel" layout-manager="GridLayoutManager" row-count="8" column-count="11" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="908" height="354"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="a3bb7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="ASTC/airport (2) (1).png"/>
+          <text value="Airport"/>
+        </properties>
+      </component>
+      <component id="99fa3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="ASTC/travel.png"/>
+          <text value="Easy Journey"/>
+        </properties>
+      </component>
+      <component id="b3938" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="ASTC/airport.png"/>
+          <text value="Location"/>
+        </properties>
+      </component>
+      <component id="565bd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="ASTC/svg (1).png"/>
+          <text value="Easy Runway"/>
+        </properties>
+      </component>
+      <component id="714e8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="ASTC/waiting-room.png"/>
+          <text value="Flight Hours"/>
+        </properties>
+      </component>
+      <component id="e5133" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="ASTC/holiday (1).png"/>
+          <text value="Enjoy Holidays"/>
+        </properties>
+      </component>
+      <component id="4cc02" class="javax.swing.JLabel" binding="Namelbl1">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Kristen ITC" size="36" style="1"/>
+          <text value="NUST EME"/>
+        </properties>
+      </component>
+      <component id="7b1a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Kristen ITC" size="36" style="1"/>
+          <text value="International"/>
+        </properties>
+      </component>
+      <component id="22832" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Kristen ITC" size="36" style="1"/>
+          <text value="Airlines"/>
+        </properties>
+      </component>
+      <component id="e7803" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="2" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Enter Name"/>
+        </properties>
+      </component>
+      <component id="9c6a1" class="javax.swing.JTextField" binding="txtNameEntringPlane">
+        <constraints>
+          <grid row="1" column="3" row-span="2" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d660" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Enter ID"/>
+        </properties>
+      </component>
+      <component id="3d0cf" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Select Source Country"/>
+        </properties>
+      </component>
+      <component id="ee58" class="javax.swing.JComboBox" binding="comboBoxLandingType">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="4" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Landing Type"/>
+            <item value="Normal"/>
+            <item value="Imediate"/>
+          </model>
+        </properties>
+      </component>
+      <component id="913f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Global Time"/>
+        </properties>
+      </component>
+      <component id="2e410" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Landing Type"/>
+        </properties>
+      </component>
+      <component id="23433" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="ASTC/planeresize (1).png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="658f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="ASTC/planeresize (1).png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a5075" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="ASTC/planeresize (1).png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="58bc6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="ASTC/planeresize (1).png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d3116" class="javax.swing.JComboBox" binding="comboBoxSourceCountry">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Select Source"/>
+            <item value="Afghanistan"/>
+            <item value="Bahrain"/>
+            <item value="Bangladesh"/>
+            <item value="Bhutan"/>
+            <item value="Brunei"/>
+            <item value="Cambodia"/>
+            <item value="China"/>
+            <item value="India"/>
+            <item value="Indonesia"/>
+            <item value="Iran"/>
+            <item value="Iraq"/>
+            <item value="Israel"/>
+            <item value="Japan"/>
+            <item value="Jordan"/>
+            <item value="Kazakhstan"/>
+            <item value="Kuwait"/>
+            <item value="Kyrgyzstan"/>
+            <item value="Laos"/>
+            <item value="Lebanon"/>
+            <item value="Malaysia"/>
+          </model>
+        </properties>
+      </component>
+      <component id="2e29c" class="javax.swing.JTextField" binding="txtID">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="5ada5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="ASTC/planeresize (1).png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e578b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="10" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="ASTC/planeresize (1).png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="9565d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Flight Type"/>
+        </properties>
+      </component>
+      <component id="7c7b6" class="javax.swing.JComboBox" binding="comboBoxFlightType">
+        <constraints>
+          <grid row="4" column="6" row-span="1" col-span="4" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Flight Type"/>
+            <item value="1. Cargo"/>
+            <item value="2. Passenger"/>
+          </model>
+        </properties>
+      </component>
+      <component id="a72b5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Date"/>
+        </properties>
+      </component>
+      <component id="3e61f" class="javax.swing.JLabel" binding="Timelbl2">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="7071" class="javax.swing.JLabel" binding="Datelbl2">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="6b7d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Enter Passengers"/>
+        </properties>
+      </component>
+      <component id="d80c4" class="javax.swing.JTextField" binding="txtPassengerCount">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d6bc0" class="javax.swing.JButton" binding="savebtn">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Send Request"/>
+        </properties>
+      </component>
+      <component id="7bc20" class="javax.swing.JButton" binding="Returnbtn">
+        <constraints>
+          <grid row="6" column="6" row-span="1" col-span="4" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Home"/>
+        </properties>
+      </component>
+      <component id="5a8bc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="6" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
